@@ -11,7 +11,7 @@ from google.genai import types
 # --- Настройки ---
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "ВАШ_ТОКЕН_БОТА")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "ВАШ_API_КЛЮЧ")
-MODEL = "gemini-2.5-flash"  # бесплатная модель с поддержкой изображений
+MODEL = "gemini-3.6-flash"  # бесплатная модель с поддержкой изображени...
 
 logging.basicConfig(level=logging.INFO)
 
